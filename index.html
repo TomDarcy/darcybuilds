@@ -35,6 +35,10 @@
 <meta name="twitter:image" content="https://darcybuilds.co.uk/og-image.png">
 <meta name="twitter:image:alt" content="Darcy Builds — practical software, automation and sensible AI systems for manufacturing and industrial SMEs">
 <meta name="geo.region" content="GB">
+<meta name="geo.placename" content="Leighton Buzzard, Bedfordshire, United Kingdom">
+<meta name="business:contact_data:locality" content="Leighton Buzzard">
+<meta name="business:contact_data:region" content="Bedfordshire">
+<meta name="business:contact_data:country_name" content="United Kingdom">
 <link rel="preload" as="image" href="image-600.webp" type="image/webp" fetchpriority="high">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <script type="application/ld+json">
@@ -49,6 +53,10 @@
       "image": "https://darcybuilds.co.uk/image.png",
       "email": "tom@darcybuilds.co.uk",
       "jobTitle": "Manufacturing software builder",
+      "homeLocation": {
+        "@type": "Place",
+        "name": "Leighton Buzzard, Bedfordshire"
+      },
       "worksFor": {
         "@id": "https://darcybuilds.co.uk/#business"
       },
@@ -70,13 +78,35 @@
       "logo": "https://darcybuilds.co.uk/favicon.svg",
       "email": "tom@darcybuilds.co.uk",
       "priceRange": "GBP 2500-5000+",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Leighton Buzzard",
+        "addressRegion": "Bedfordshire",
+        "addressCountry": "GB"
+      },
+      "location": {
+        "@type": "Place",
+        "name": "Leighton Buzzard, Bedfordshire",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Leighton Buzzard",
+          "addressRegion": "Bedfordshire",
+          "addressCountry": "GB"
+        }
+      },
       "founder": {
         "@id": "https://darcybuilds.co.uk/#tom-darcy"
       },
-      "areaServed": {
-        "@type": "Country",
-        "name": "United Kingdom"
-      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bedfordshire"
+        },
+        {
+          "@type": "Country",
+          "name": "United Kingdom"
+        }
+      ],
       "description": "Practical software, automation and AI systems for manufacturing and industrial SMEs.",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",

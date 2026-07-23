@@ -1,0 +1,27 @@
+# Darcy Builds
+
+Darcy Builds is Tom Darcy's studio for practical software, automation and AI systems for manufacturing and industrial SMEs.
+
+Primary URL: https://darcybuilds.co.uk/
+
+Contact: tom@darcybuilds.co.uk
+
+Core services:
+
+- AI and Systems Discovery: workflow mapping, pain-point analysis, opportunity ranking, risk/readiness notes and a recommended first build.
+- Build Sprint: focused internal tools, automations, integrations, AI workflows and prototypes.
+- Embedded Builder Retainer: ongoing technical partnership for manufacturing and industrial SMEs.
+
+Positioning:
+
+- Manufacturing-led, UK-based, practical and implementation-focused.
+- AI is treated as a workflow capability, not a standalone gimmick.
+- Original client artefacts remain private; public build notes use anonymised stories and recreated diagrams where needed.
+
+Not a fit for:
+
+- WordPress websites.
+- Ecommerce storefronts.
+- Generic marketing sites.
+- Mobile apps.
+- AI strategy without an implementation path.

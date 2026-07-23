@@ -1,0 +1,11 @@
+.DS_Store
+
+# Internal strategy/docs that should not be published as public site files.
+thesis.md
+go-to-market.md
+
+# Local/generated development artefacts.
+lighthouse-report*.json
+support.js
+image-slot.js
+portrait-og.png

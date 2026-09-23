@@ -22,6 +22,12 @@ UK manufacturers with roughly 20–250 people, existing systems and one operatio
 
 Production planning, quoting, NCR and rework tracking, job status, inventory, tooling and production reporting. Existing systems can connect through agreed exports, imports or APIs. AI is a tool used where it helps, not the lead offer.
 
+## Case studies
+
+- FactoryPulse: https://darcybuilds.co.uk/case-studies/factorypulse/ — a manufacturing operations software product developed by Tom and sold to a client. Genuine screenshots from the product documentation.
+- Lightweight Manufacturing ERP: https://darcybuilds.co.uk/case-studies/manufacturing-erp/ — BoM, purchasing, inventory and build status for an approximately 40-person UK manufacturer. Reconstructed screenshots use fictional data.
+- Digital Inspection & SPC: https://darcybuilds.co.uk/case-studies/digital-inspection-spc/ — engineering-defined inspections, operator capture and quality analytics. Anonymised project; reconstructed interfaces and fictional measurements.
+
 ## Proof
 
 Tom's background spans Rolls-Royce, Atlas Copco, BCG and a venture-backed manufacturing startup. An anonymised project covered a lightweight ERP/MES workflow for a 500+ component automated manufacturing system, connecting BoM, procurement, build status and manufacturing control. No quantified savings or payback claim is published.

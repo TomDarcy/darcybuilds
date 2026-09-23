@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assembly and bill of materials — reconstruction</title>
+    <link rel="stylesheet" href="screen.css" />
+  </head>
+  <body>
+    <header>
+      <strong>Manufacturing workspace</strong
+      ><span>Demo factory / Production control</span>
+    </header>
+    <div class="shell">
+      <aside>
+        <p>WORKSPACE</p>
+        <div class="">Build overview</div>
+        <div class="active">Bills of materials</div>
+        <div class="">Purchasing</div>
+        <div class="">Inventory</div>
+        <div class="">Suppliers</div>
+      </aside>
+      <main>
+        <div class="crumb">Bills of materials / ASY-2100</div>
+        <div class="top">
+          <div>
+            <h1>Transfer module</h1>
+            <span class="muted">Rev C · WO-1042 · Build quantity: 2</span>
+          </div>
+          <span class="tag">23 Sep 2026 · Day shift</span>
+        </div>
+        <div class="facts">
+          <span><strong>24</strong> unique components</span
+          ><span><strong>22</strong> available</span
+          ><span><strong>2</strong> component shortages</span>
+        </div>
+        <div class="tabs">
+          <b>Bill of materials</b><span>Allocated stock</span
+          ><span>Purchase orders</span><span>Build history</span>
+        </div>
+        <div class="panel">
+          <div class="panel-head">
+            <h2>Component demand</h2>
+            <span>Selected components · quantities across both units</span>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Part</th>
+                <th>Description</th>
+                <th>Required</th>
+                <th>Available</th>
+                <th>Short</th>
+                <th>On order</th>
+                <th>Supply status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>P-2041</td>
+                <td>Guide bush Ø25</td>
+                <td>12</td>
+                <td>4</td>
+                <td>8</td>
+                <td>8</td>
+                <td><span class="badge amber">Due 24 Sep</span></td>
+              </tr>
+              <tr>
+                <td>P-2088</td>
+                <td>Bearing block</td>
+                <td>8</td>
+                <td>4</td>
+                <td>4</td>
+                <td>4</td>
+                <td><span class="badge amber">Due 24 Sep</span></td>
+              </tr>
+              <tr>
+                <td>P-2110</td>
+                <td>Support bracket</td>
+                <td>16</td>
+                <td>16</td>
+                <td>0</td>
+                <td>0</td>
+                <td><span class="badge green">Available</span></td>
+              </tr>
+              <tr>
+                <td>P-2124</td>
+                <td>Drive shaft</td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td><span class="badge green">Available</span></td>
+              </tr>
+              <tr>
+                <td>P-2205</td>
+                <td>M8 × 25 cap screw</td>
+                <td>48</td>
+                <td>64</td>
+                <td>0</td>
+                <td>0</td>
+                <td><span class="badge green">Available</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="notice">
+          <strong>Build held:</strong> guide bushes and bearing blocks are due
+          on PO-318. Purchasing and production share the same demand record.
+        </div>
+      </main>
+    </div>
+    <div class="foot">
+      <span class="reconstructed"
+        >Reconstructed interface · fictional demonstration data</span
+      ><span>Darcy Builds / case study</span>
+    </div>
+  </body>
+</html>

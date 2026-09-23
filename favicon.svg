@@ -1,4 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Darcy Builds">
-  <rect width="64" height="64" rx="8" fill="#b4441a"/>
-  <text x="32" y="42" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="700" fill="#faf8f5" text-anchor="middle">db</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" aria-label="Darcy Builds" role="img" viewBox="0 0 64 64"><rect width="64" height="64" fill="#b4441a" rx="8"/><text x="32" y="42" fill="#faf8f5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="700" text-anchor="middle">db</text></svg>

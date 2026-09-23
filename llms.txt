@@ -1,27 +1,31 @@
 # Darcy Builds
 
-Darcy Builds is Tom Darcy's studio for practical software, automation and AI systems for manufacturing and industrial SMEs.
+Darcy Builds is Tom Darcy's manufacturing software studio. Small, useful bits of software for UK manufacturers whose operational processes have outgrown spreadsheets, without replacing their ERP.
 
 Primary URL: https://darcybuilds.co.uk/
-
+Spreadsheet-to-App Sprint: https://darcybuilds.co.uk/spreadsheet-to-app/
 Contact: tom@darcybuilds.co.uk
 
-Core services:
+## Customers and approach
 
-- AI and Systems Discovery: workflow mapping, pain-point analysis, opportunity ranking, risk/readiness notes and a recommended first build.
-- Build Sprint: focused internal tools, automations, integrations, AI workflows and prototypes.
-- Embedded Builder Retainer: ongoing technical partnership for manufacturing and industrial SMEs.
+UK manufacturers with roughly 20–250 people, existing systems and one operational workflow outside them. Typical buyers are MDs, operations directors and engineering managers. Mostly remote delivery. Every build has a defined problem, output, acceptance criteria, fixed scope and fixed price. Changes become another sprint.
 
-Positioning:
+## Offers
 
-- Manufacturing-led, UK-based, practical and implementation-focused.
-- AI is treated as a workflow capability, not a standalone gimmick.
-- Original client artefacts remain private; public build notes use anonymised stories and recreated diagrams where needed.
+- Spreadsheet-to-App Quick Fix: from £4,500, approximately one week, one tightly scoped workflow.
+- Build Sprint: £8,000–£12,000, approximately 2–3 weeks, a typical internal application.
+- Larger builds: £15,000+, where the business case justifies it.
+- Factory Workflow Audit: £2,500. A day with the team, a process map, problems and waste, rough annual costs, outline solutions, implementation estimates and priorities; a prototype where appropriate. £1,000 credited against a £10k+ build agreed within 60 days.
+- Manufacturing Software Partner: reserved improvement capacity after a successful build. £3,000/month for approximately 2 days or £5,000/month for approximately 4 days; minimum three months. Not general availability or on-call support.
 
-Not a fit for:
+## Example workflows
 
-- WordPress websites.
-- Ecommerce storefronts.
-- Generic marketing sites.
-- Mobile apps.
-- AI strategy without an implementation path.
+Production planning, quoting, NCR and rework tracking, job status, inventory, tooling and production reporting. Existing systems can connect through agreed exports, imports or APIs. AI is a tool used where it helps, not the lead offer.
+
+## Proof
+
+Tom's background spans Rolls-Royce, Atlas Copco, BCG and a venture-backed manufacturing startup. An anonymised project covered a lightweight ERP/MES workflow for a 500+ component automated manufacturing system, connecting BoM, procurement, build status and manufacturing control. No quantified savings or payback claim is published.
+
+## Boundaries
+
+No ERP implementations, 24/7 IT support, managed infrastructure, outsourced IT, generic websites, PLC/controls contracting, large transformation programmes, safety-critical software requiring extensive validation or open-ended feature development. Hosting, ownership and support are agreed before each build.

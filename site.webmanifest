@@ -1,7 +1,7 @@
 {
   "name": "Darcy Builds",
   "short_name": "Darcy Builds",
-  "description": "Practical software, automation and AI systems for manufacturing and industrial SMEs.",
+  "description": "Simple internal software for UK manufacturers whose workflows have outgrown spreadsheets.",
   "start_url": "/",
   "scope": "/",
   "display": "minimal-ui",

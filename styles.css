@@ -1186,3 +1186,195 @@ details p {
     padding: 20px;
   }
 }
+
+/* AI opportunity service and the sample report */
+.starting-points .card {
+  display: flex;
+  flex-direction: column;
+}
+.starting-points .card:last-child {
+  border-top: 3px solid var(--accent);
+}
+.starting-points .route-price {
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 15px;
+}
+.starting-points .card > a {
+  align-self: flex-start;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: auto;
+}
+.service-alternative {
+  border-left: 3px solid var(--accent);
+  padding: 22px 26px;
+  background: var(--soft);
+  margin-bottom: 36px;
+  font-size: 16px;
+}
+.opportunity-boundary {
+  font-size: 14px;
+  color: var(--muted);
+  margin-top: 24px;
+  max-width: 800px;
+}
+.opportunity-report {
+  border: 1px solid #c9d2d6;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 5px 20px #23364108;
+}
+.report-heading {
+  padding: 26px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background: #edf1f2;
+}
+.report-heading h3 {
+  margin: 0;
+  font-size: 26px;
+}
+.report-heading .eyebrow {
+  font-size: 10px;
+  margin-bottom: 12px;
+  color: #53636b;
+}
+.report-label {
+  font-family: ui-monospace, monospace;
+  font-size: 11px;
+  color: #53636b;
+  white-space: nowrap;
+}
+.report-key {
+  padding: 18px 28px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-bottom: 1px solid #dce3e6;
+}
+.recommendation {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 650;
+  padding: 5px 9px;
+  border-radius: 3px;
+  line-height: 1.45;
+}
+.recommendation.build {
+  background: #e6f2e9;
+  color: #245d3b;
+}
+.recommendation.investigate {
+  background: #fff1d6;
+  color: #795214;
+}
+.recommendation.skip {
+  background: #edf0f2;
+  color: #4e5e6b;
+}
+.opportunity-table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+}
+.opportunity-table-scroll:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: -3px;
+}
+.opportunity-table {
+  width: 100%;
+  min-width: 790px;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.opportunity-table caption {
+  caption-side: bottom;
+  text-align: left;
+  font-size: 12px;
+  color: #5f6f76;
+  padding: 18px 24px;
+  border-top: 1px solid #dce3e6;
+}
+.opportunity-table th,
+.opportunity-table td {
+  padding: 17px 18px;
+  border-bottom: 1px solid #e6eaed;
+  vertical-align: top;
+}
+.opportunity-table thead th {
+  background: #f7f9fa;
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #596b74;
+}
+.opportunity-table tbody th {
+  min-width: 170px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.opportunity-table td:nth-child(4) {
+  min-width: 150px;
+}
+.opportunity-table td:last-child {
+  width: 34%;
+  color: #53636b;
+}
+.pilot-example {
+  background: #f3f6f7;
+  padding: 25px 28px;
+  border-top: 1px solid #c9d2d6;
+}
+.pilot-example .eyebrow {
+  margin-bottom: 12px;
+  font-size: 10px;
+}
+.pilot-example h3 {
+  font-size: 21px;
+  margin-bottom: 14px;
+}
+.pilot-example p:last-child {
+  font-size: 15px;
+  max-width: 780px;
+}
+.assessment-criteria {
+  margin-top: 30px;
+}
+.assessment-criteria h3 {
+  font-size: 20px;
+}
+.assessment-criteria ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.assessment-criteria li {
+  font-size: 13px;
+  color: var(--muted);
+  padding: 8px 12px;
+  background: var(--soft);
+  border-radius: 3px;
+  margin: 0;
+}
+@media (max-width: 760px) {
+  .report-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 14px;
+  }
+  .report-key {
+    padding-inline: 24px;
+  }
+  .pilot-example {
+    padding: 24px;
+  }
+}

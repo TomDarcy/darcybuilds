@@ -269,9 +269,11 @@ nav a {
   display: grid;
   gap: 16px;
 }
-.examples,
-.prices {
+.examples {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.prices {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .card {
   padding: 28px;
@@ -760,6 +762,15 @@ details p {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
+}
+.proof-cards {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.proof-cards .work-copy {
+  padding: 22px;
+}
+.proof-cards .work-copy h3 {
+  font-size: 23px;
 }
 .work-card {
   background: #fff;
@@ -1376,5 +1387,22 @@ details p {
   }
   .pilot-example {
     padding: 24px;
+  }
+}
+
+/* Keep the three proof cards readable on tablets as well as phones. */
+@media (min-width: 761px) and (max-width: 1000px) {
+  .proof-cards {
+    grid-template-columns: 1fr;
+  }
+  .proof-cards .work-card > a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .proof-cards .work-image {
+    display: flex;
+    align-items: center;
+    border-bottom: 0;
+    border-right: 1px solid var(--line);
   }
 }

@@ -150,22 +150,14 @@
               "itemListElement": [
                 {
                   "@type": "Offer",
-                  "name": "Quick Fix",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "priceCurrency": "GBP",
-                    "minPrice": 2000
-                  }
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Build Sprint",
+                  "name": "Spreadsheet-to-App Sprint",
                   "priceSpecification": {
                     "@type": "PriceSpecification",
                     "priceCurrency": "GBP",
                     "minPrice": 6000,
                     "maxPrice": 10000
-                  }
+                  },
+                  "url": "https://darcybuilds.co.uk/spreadsheet-to-app/"
                 },
                 {
                   "@type": "Offer",
@@ -174,16 +166,6 @@
                     "@type": "PriceSpecification",
                     "priceCurrency": "GBP",
                     "minPrice": 10000
-                  }
-                },
-                {
-                  "@type": "Offer",
-                  "name": "Factory Workflow Audit",
-                  "priceSpecification": {
-                    "@type": "PriceSpecification",
-                    "priceCurrency": "GBP",
-                    "minPrice": 2500,
-                    "maxPrice": 2500
                   }
                 },
                 {
@@ -235,7 +217,6 @@
     </script>
 
     <link rel="stylesheet" href="/styles.css" />
-    <script src="/enquiry.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -259,86 +240,23 @@
           <p class="eyebrow">Manufacturing operations. Working software.</p>
           <h1>Your factory has outgrown its <em>spreadsheets.</em></h1>
           <p class="lead">
-            I turn awkward manual manufacturing workflows into simple internal
-            software — without replacing your ERP.
+            I build simple internal software around the manufacturing processes
+            your ERP doesn’t handle.
           </p>
           <div class="actions">
             <a class="button" href="#contact"
               >Show me the spreadsheet <span aria-hidden="true">→</span></a
             ><a href="#work">See what I’ve built</a>
           </div>
-          <p class="hero-proof">
-            I’m Tom Darcy. A manufacturing operator who builds software — from
-            factory operations products to build control and shop-floor
-            inspection.
-          </p>
-        </div>
-      </section>
-      <section class="section recognition compact-section">
-        <p class="eyebrow">
-          The gap between spreadsheets and enterprise systems
-        </p>
-        <h2>When Excel isn’t enough,<br />but a new ERP is ridiculous.</h2>
-        <p class="lead">
-          Your existing systems do most of the job. I build around the awkward
-          process they don’t cover: one useful application, with a defined scope
-          and a clear finish.
-        </p>
-      </section>
-      <section id="starting-points" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Two ways to start</p>
-          <h2>Not sure where AI could actually help your factory?</h2>
-          <p>
-            It can be hard to separate useful applications from hype. I spend
-            time with your team, map the workflows and identify which AI or
-            automation projects are realistically worth building.
-          </p>
-        </div>
-        <div class="two-col starting-points">
-          <article class="card">
-            <p class="eyebrow">A problem you already know</p>
-            <h3>“I already know what needs fixing”</h3>
-            <p>
-              A spreadsheet, manual process or operational bottleneck with a
-              clear owner. A
-              <a href="/spreadsheet-to-app/">Build Sprint</a> turns it into
-              working software.
-            </p>
-            <p class="route-price">Typically £6k–£10k · 2–5 weeks</p>
-            <a href="/#contact"
-              >Show me a process that’s causing problems
-              <span aria-hidden="true">→</span></a
-            >
-          </article>
-          <article class="card">
-            <p class="eyebrow">Find the right first project</p>
-            <h3>“We want to use AI but don’t know where to start”</h3>
-            <p>
-              Leave with one practical pilot ready to scope. An
-              <strong>AI Opportunity Sprint</strong> helps you decide what’s
-              worth building first, why, what it should do and roughly what it
-              will cost.
-            </p>
-            <p class="route-price">Typically £1,500–£2,500</p>
-            <a href="/ai-opportunity-sprint/"
-              >Explore an AI Opportunity Sprint
-              <span aria-hidden="true">→</span></a
-            >
-          </article>
         </div>
       </section>
       <section id="work" class="section">
         <div class="section-heading">
           <p class="eyebrow">Selected work</p>
           <h2>Some of the systems I’ve built</h2>
-          <p>
-            From shop-floor inspection to lightweight ERP systems, I build
-            software around the way manufacturing businesses actually operate.
-          </p>
         </div>
-        <div class="work-grid">
-          <article class="work-card featured-work">
+        <div class="work-grid proof-cards">
+          <article class="work-card">
             <a href="/case-studies/factorypulse/"
               ><div class="work-image">
                 <img
@@ -346,7 +264,7 @@
                   alt="FactoryPulse product home with visual management, problem solving and continuous improvement tools"
                   width="2910"
                   height="1372"
-                  loading="lazy"
+                  loading="eager"
                   decoding="async"
                 /><span class="evidence-label"
                   >Original product screenshot</span
@@ -356,11 +274,8 @@
                 <p class="eyebrow">Manufacturing operations software</p>
                 <h3>FactoryPulse</h3>
                 <p>
-                  A tool I built for a client to bring factory measures,
-                  improvement projects and problem-solving workflows together.
-                  Teams could organise information by factory, department and
-                  cell, with boards, project owners and templates to help them
-                  follow up.
+                  A tool built for a client to connect factory measures,
+                  improvement projects and problem-solving work.
                 </p>
                 <span class="work-link"
                   >View case study <span aria-hidden="true">→</span></span
@@ -376,7 +291,7 @@
                   alt="Reconstructed build overview showing work orders, material shortages and purchase orders"
                   width="1280"
                   height="885"
-                  loading="lazy"
+                  loading="eager"
                   decoding="async"
                 /><span class="evidence-label"
                   >Reconstructed · fictional data</span
@@ -386,11 +301,8 @@
                 <p class="eyebrow">UK manufacturer · approximately 40 people</p>
                 <h3>Lightweight Manufacturing ERP</h3>
                 <p>
-                  One practical operational system connecting bills of
-                  materials, purchasing, inventory and build status. Built
-                  around the manufacturer’s processes so the team could see what
-                  was needed, what was available and what was holding up a
-                  build.
+                  BoM, purchasing, inventory and build status in one system for
+                  a manufacturer with approximately 40 people.
                 </p>
                 <span class="work-link"
                   >View case study <span aria-hidden="true">→</span></span
@@ -406,7 +318,7 @@
                   alt="Reconstructed operator screen with bore diameter and flatness measurements"
                   width="1280"
                   height="730"
-                  loading="lazy"
+                  loading="eager"
                   decoding="async"
                 /><span class="evidence-label"
                   >Reconstructed · fictional data</span
@@ -416,11 +328,8 @@
                 <p class="eyebrow">Quality engineers + shop-floor operators</p>
                 <h3>Digital Inspection & SPC</h3>
                 <p>
-                  Engineers define the measurement requirements; operators
-                  capture results at the point of work. Structured inspection
-                  data then feeds quality monitoring, SPC charts and alerts,
-                  rather than becoming another isolated paper record or
-                  spreadsheet.
+                  Engineering-defined checks, simple operator capture and
+                  structured records for quality analysis and SPC.
                 </p>
                 <span class="work-link"
                   >View case study <span aria-hidden="true">→</span></span
@@ -432,8 +341,11 @@
       </section>
       <section id="what" class="section compact-section">
         <div class="section-heading">
-          <p class="eyebrow">The sort of problems I fix</p>
-          <h2>Which workflow is slowing you down?</h2>
+          <p class="eyebrow">The problem</p>
+          <h2>
+            Too complicated for Excel. Too specific for off-the-shelf software.
+            Too small for an ERP programme.
+          </h2>
         </div>
         <ul class="problem-list">
           <li>
@@ -456,24 +368,25 @@
             <strong>Job tracking</strong
             ><span>One view across engineering and production.</span>
           </li>
-          <li>
-            <strong>Operational reporting</strong
-            ><span>Capture it once. Use it across the team.</span>
-          </li>
         </ul>
       </section>
       <section id="services" class="section sprint-feature">
         <div>
           <p class="eyebrow">The Spreadsheet-to-App Sprint</p>
-          <h2>One process.<br />Working software.</h2>
+          <h2>One annoying problem.<br />One useful piece of software.</h2>
           <p>
-            A focused internal application built around your users, data and
-            rules. Reviewed with your team, tested against agreed acceptance
-            criteria, documented and handed over.
+            For a process that’s obviously broken. I visit your factory, map the
+            workflow and build one focused application around the people using
+            it. A fixed scope, a working tool and a proper handover.
           </p>
           <a class="button" href="/spreadsheet-to-app/"
             >Explore the sprint <span aria-hidden="true">→</span></a
           >
+          <p class="small-text">
+            <a href="/spreadsheet-to-app/#ownership"
+              >Your data, code access and handover →</a
+            >
+          </p>
         </div>
         <div class="sprint-price">
           <p class="eyebrow">The typical build</p>
@@ -485,89 +398,55 @@
             <li>Ownership, hosting and support agreed up front</li>
           </ul>
           <p class="small-text">
-            Tightly scoped Quick Fixes from £2,000.<br />Larger builds £10,000+.
+            If the sprint reveals a larger project, builds start at £10k+, with
+            scope and price agreed separately.
           </p>
         </div>
       </section>
-      <section id="process" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">How it works</p>
-          <h2>From the process to the application</h2>
-        </div>
-        <ol class="steps">
-          <li>
-            <h3>Show me the process</h3>
-            <p>
-              Start with the spreadsheet, document or workflow holding
-              everything together. We check the fit in a free 30-minute
-              discussion.
-            </p>
-          </li>
-          <li>
-            <h3>I map the workflow</h3>
-            <p>
-              I visit your factory to see the users, data, rules and exceptions
-              first-hand. We agree the output, acceptance criteria, scope and
-              fixed price.
-            </p>
-          </li>
-          <li>
-            <h3>I build the first working version</h3>
-            <p>
-              Your team responds to working software using the real workflow, so
-              we can resolve the details together.
-            </p>
-          </li>
-          <li>
-            <h3>We refine and deploy</h3>
-            <p>
-              Refine within the agreed scope, check acceptance criteria, and
-              hand over with documentation and clear ownership.
-            </p>
-          </li>
-        </ol>
-      </section>
-      <section id="ownership" class="section two-col">
+      <section id="starting-points" class="section two-col compact-section">
         <div>
-          <p class="eyebrow">Ownership &amp; handover</p>
-          <h2>Your application isn’t held hostage.</h2>
+          <p class="eyebrow">AI Opportunity Sprint</p>
+          <h2>Don’t know what to automate?</h2>
         </div>
         <div>
           <p>
-            <strong>You own your data.</strong> You can access it and export it
-            in a usable format. You don’t need an ongoing retainer to keep using
-            what we’ve built.
+            For teams who know AI could help somewhere. Leave with one practical
+            pilot ready to scope: what’s worth building first, why, what it
+            should do and roughly what it will cost.
           </p>
           <p>
-            Before work starts, we agree the source code ownership and access,
-            where the application will run, who controls the hosting accounts
-            and what documentation you’ll receive. Any ongoing costs and
-            third-party licences are made clear up front.
+            <strong>£1.5k–£2.5k</strong> · Factory visit and a practical
+            first-pilot brief.
           </p>
-          <p>
-            The handover covers how the application works, how it’s deployed and
-            what keeps it running. Another competent developer can take over its
-            maintenance or development, with the code, access and documentation
-            they need.
-          </p>
-          <a href="/spreadsheet-to-app/#ownership"
-            >How ownership and handover work
+          <a href="/ai-opportunity-sprint/"
+            >Explore the AI Opportunity Sprint
             <span aria-hidden="true">→</span></a
           >
         </div>
       </section>
       <section id="about" class="section about-builder">
         <div>
-          <p class="eyebrow">Why Darcy Builds</p>
+          <p class="eyebrow">Why Tom</p>
           <h2>A manufacturing operator<br />who builds software.</h2>
           <p>
             More than a decade across production, operations and engineering —
             from aerospace NPI and factory leadership to MES deployments,
             automation and robotics machine building.
           </p>
+          <h3>The expensive part isn’t writing the code.</h3>
           <p>
-            You don’t need to spend the first three weeks explaining a routing,
-            NCR, BoM or work order.
+            It’s understanding what happens when a job changes, how purchasing
+            interacts with the BoM, what operators actually need to enter and
+            what your ERP should remain responsible for.
+          </p>
+          <p>
+            That’s why I start in the factory. I map the process with your team,
+            then personally build the software around it.
+          </p>
+          <p class="small-text">
+            <a href="/spreadsheet-to-app/#approach"
+              >Where Power Apps, your IT supplier or a developer fit →</a
+            >
           </p>
           <p class="experience-line">
             Rolls-Royce · Atlas Copco · BCG · Venture-backed manufacturing
@@ -591,266 +470,28 @@
           </figcaption>
         </figure>
       </section>
-      <section id="notes" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">
-            Featured project · approximately 40-person manufacturer
-          </p>
-          <h2>From disconnected spreadsheets<br />to one view of the build.</h2>
-          <p>
-            What parts do we need? What’s ordered? What’s in stock? I connected
-            BoM, purchasing, inventory and build status so answering those
-            questions no longer depended on reconciling separate spreadsheets.
-          </p>
-        </div>
-        <div class="before-after">
-          <figure class="evidence">
-            <a
-              class="image-link"
-              href="/assets/case-studies/erp-before.png"
-              aria-label="Open full-size image: Representative manufacturing spreadsheet with part demand, stock, orders and manual status notes"
-              ><img
-                src="/assets/case-studies/erp-before.png"
-                alt="Representative manufacturing spreadsheet with part demand, stock, orders and manual status notes"
-                width="1280"
-                height="745"
-                loading="lazy"
-                decoding="async"
-            /></a>
-            <figcaption>
-              <strong>Before</strong> — information spread across spreadsheets
-              and manual updates. Representative reconstruction; fictional data.
-            </figcaption>
-          </figure>
-          <figure class="evidence">
-            <a
-              class="image-link"
-              href="/assets/case-studies/erp-overview.png"
-              aria-label="Open full-size image: Reconstructed production overview linking assemblies, material availability and build status"
-              ><img
-                src="/assets/case-studies/erp-overview.png"
-                alt="Reconstructed production overview linking assemblies, material availability and build status"
-                width="1280"
-                height="885"
-                loading="lazy"
-                decoding="async"
-            /></a>
-            <figcaption>
-              <strong>After</strong> — BoM, inventory, purchasing and build
-              status in one operational system. Reconstructed interface;
-              fictional data.
-            </figcaption>
-          </figure>
-        </div>
-        <ol class="workflow" aria-label="Manufacturing workflow">
-          <li><span>01</span>BoM</li>
-          <li><span>02</span>Demand</li>
-          <li><span>03</span>Purchasing</li>
-          <li><span>04</span>Inventory</li>
-          <li><span>05</span>Build</li>
-        </ol>
-        <a class="text-cta" href="/case-studies/manufacturing-erp/"
-          >See the full manufacturing ERP case study
-          <span aria-hidden="true">→</span></a
-        >
-      </section>
-      <section class="section">
-        <div class="section-heading">
-          <p class="eyebrow">A useful fit, from day one</p>
-          <h2>Small enough to ship.<br />Important enough to fix.</h2>
-        </div>
-        <div class="two-col fit-panels">
-          <div>
-            <h3>Good fit</h3>
-            <ul>
-              <li>
-                An important manufacturing workflow running on spreadsheets or
-                manual steps
-              </li>
-              <li>Roughly 5–50 users, with a clear internal owner</li>
-
-              <li>A team that needs something practical quickly</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Probably not</h3>
-            <ul>
-              <li>Multi-year digital transformation programmes</li>
-              <li>Generic IT support or managed infrastructure</li>
-              <li>Consumer software or safety-critical machine control</li>
-            </ul>
-          </div>
-        </div>
-        <p class="small-text muted">
-          Typically UK manufacturers with 20–250 people. Every build has a fixed
-          scope and acceptance criteria.
+      <section id="contact" class="section case-contact">
+        <p class="eyebrow">Start with one process</p>
+        <h2>Show me the spreadsheet.</h2>
+        <p>
+          Send a spreadsheet, a few screenshots or a short explanation of what’s
+          causing problems. I’ll tell you whether I’d build something, improve
+          what you already have or leave it alone.
         </p>
-      </section>
-      <div class="secondary-offers">
-        <details id="audit">
-          <summary>Need to work out what to build first?</summary>
-          <p>
-            <strong>Factory Workflow Audit — £2,500.</strong> A day with your
-            team, a current-process map, problems and waste, rough annual costs,
-            outline solutions, implementation estimates and priorities. A
-            prototype or mock-up where appropriate.
-          </p>
-          <p>
-            If we proceed with a £10k+ build within 60 days, I’ll credit £1,000
-            of the audit fee against the project.
-          </p>
-        </details>
-        <details>
-          <summary>Have a backlog after a successful build?</summary>
-          <p>
-            <strong>Manufacturing Software Partner.</strong> Reserved
-            improvement capacity: £1,000/month for 3 reserved days, or
-            £2,000/month for 7 reserved days. Minimum three months.
-          </p>
-        </details>
-      </div>
-      <section id="contact" class="section contact">
-        <div class="section-heading">
-          <p class="eyebrow">Tell me what’s broken</p>
-          <h2>Show me the spreadsheet</h2>
-          <p>
-            Send me the spreadsheet, form or workflow that’s causing the pain.
-            I’ll tell you whether I’d build something, improve what you already
-            have, or leave it alone.
-          </p>
-        </div>
         <div class="actions">
           <a
+            class="button"
             href="mailto:tom@darcybuilds.co.uk?subject=Show%20me%20the%20spreadsheet"
-            >Email Tom directly</a
+            >Show me the spreadsheet <span aria-hidden="true">→</span></a
           ><a href="https://calendly.com/tom-darcybuilds/30min"
             >Book a free 30-minute call</a
           >
         </div>
-        <form id="enquiry-form">
-          <p class="form-note" id="form-help">
-            Use these prompts to prepare an email, then review and send it in
-            your email app. You can attach a spreadsheet or screenshots there.
-          </p>
-          <div class="form-grid">
-            <div class="field full">
-              <label for="workflow"
-                >What process are you trying to improve?
-                <span>(required)</span></label
-              ><textarea
-                id="workflow"
-                name="workflow"
-                rows="3"
-                maxlength="1500"
-                required
-                aria-describedby="form-help"
-              ></textarea>
-            </div>
-            <fieldset class="field full">
-              <legend>How is it done today?</legend>
-              <div class="checks">
-                <label
-                  ><input type="checkbox" name="current" value="Excel" />
-                  Excel</label
-                ><label
-                  ><input type="checkbox" name="current" value="Paper" />
-                  Paper</label
-                ><label
-                  ><input type="checkbox" name="current" value="Email" />
-                  Email</label
-                ><label
-                  ><input type="checkbox" name="current" value="ERP" />
-                  ERP</label
-                ><label
-                  ><input type="checkbox" name="current" value="Other" />
-                  Other</label
-                >
-              </div>
-            </fieldset>
-            <div class="field">
-              <label for="people">How many people use it?</label
-              ><input
-                id="people"
-                name="people"
-                type="number"
-                min="1"
-                step="1"
-                max="100000"
-                inputmode="numeric"
-                placeholder="e.g. 12"
-              />
-            </div>
-            <div class="field">
-              <label for="hours"
-                >Hours spent on it each week, across the team</label
-              ><input
-                id="hours"
-                name="hours"
-                type="number"
-                min="0"
-                step="0.5"
-                max="100000"
-                inputmode="decimal"
-                placeholder="A rough estimate is fine"
-              />
-            </div>
-            <div class="field full">
-              <label for="problems">What goes wrong today?</label
-              ><textarea
-                id="problems"
-                name="problems"
-                rows="3"
-                maxlength="1500"
-              ></textarea>
-            </div>
-            <div class="field full">
-              <label for="budget">What’s your approximate budget?</label
-              ><select id="budget" name="budget">
-                <option value="">Select a range (optional)</option>
-                <option>£2–5k</option>
-                <option>£5–10k</option>
-                <option>£10–20k</option>
-                <option>£20k+</option>
-                <option>Not sure yet</option>
-              </select>
-            </div>
-          </div>
-          <button class="button" type="submit" disabled>
-            Prepare my email <span aria-hidden="true">→</span>
-          </button>
-          <p class="form-note">
-            Your answers stay in this page until you choose to email them. This
-            form doesn’t upload files or send a message automatically.
-          </p>
-          <noscript
-            ><p>
-              Email
-              <a href="mailto:tom@darcybuilds.co.uk">tom@darcybuilds.co.uk</a>
-              with your answers above. Preparing an email here requires
-              JavaScript.
-            </p></noscript
+        <p class="small-text">
+          <a href="/spreadsheet-to-app/#contact"
+            >Use the guided enquiry form →</a
           >
-        </form>
-        <div id="email-preview" class="email-preview" hidden>
-          <h3>Your enquiry is ready to review</h3>
-          <label for="enquiry-text">Email draft</label
-          ><textarea id="enquiry-text" rows="12" readonly></textarea>
-          <div class="actions">
-            <a
-              id="email-link"
-              class="button"
-              href="mailto:tom@darcybuilds.co.uk"
-              >Open in my email app</a
-            ><button id="copy-enquiry" class="button secondary" type="button">
-              Copy enquiry
-            </button>
-          </div>
-          <p class="form-note">
-            If your email app doesn’t open, copy the draft and send it to
-            <a href="mailto:tom@darcybuilds.co.uk">tom@darcybuilds.co.uk</a>.
-          </p>
-        </div>
-        <p id="form-status" role="status" aria-live="polite"></p>
+        </p>
       </section>
       <footer class="site-footer">
         <div>

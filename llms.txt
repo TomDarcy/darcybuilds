@@ -35,3 +35,7 @@ Tom's background spans Rolls-Royce, Atlas Copco, BCG and a venture-backed manufa
 ## Boundaries
 
 No 24/7 IT support, managed infrastructure, outsourced IT, generic websites, PLC/controls contracting, large transformation programmes, safety-critical software requiring extensive validation or open-ended feature development. Hosting, ownership and support are agreed before each build.
+
+## Ownership and handover
+
+Clients own their data, with access and usable exports agreed. Source code ownership, licensing and access, hosting responsibilities, third-party costs and documentation are agreed before work starts. Hosting accounts sit with the client where practical; managed arrangements include access and transfer terms. Handover covers setup, deployment, data structure, integrations, maintenance and secure account access so another competent developer can take over. An ongoing development retainer is not required to keep using the application; hosting and other service costs remain explicit.
